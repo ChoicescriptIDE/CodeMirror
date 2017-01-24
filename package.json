@@ -1,5 +1,5 @@
 {
-  "name": "codemirror",
+  "name": "cside-codemirror",
   "version": "5.23.0",
   "main": "lib/codemirror.js",
   "description": "Full-featured in-browser code editor",
