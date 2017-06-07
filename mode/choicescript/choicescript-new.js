@@ -46,7 +46,8 @@
                 {regex: /\$!{0,2}\{[\w\{\}\+\-&\*/\s0-9#]+(\[[\w0-9\[\]]+\])*\}/, token: "variable"},
                 {regex: /[\{\}]/, token: "curly-bracket"},
                 {regex: /[\(\)]/, token: "standard-bracket"},
-                {regex: /[\[\]]/, token: "square-bracket"}
+                {regex: /[\[\]]/, token: "square-bracket"},
+		{regex: /(--|\.\.\.)/, token: "formattable"}
             ]
         };
 
