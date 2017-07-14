@@ -30,3 +30,6 @@
 
 .cm-s-blackboard .CodeMirror-activeline-background { background: #3C3636; }
 .cm-s-blackboard .CodeMirror-matchingbracket { outline:1px solid grey;color:white !important; }
+
+.cm-s-blackboard span.cm-spell-error::after { border-bottom: 1px dashed rgb(190, 30, 30); }
+.cm-s-blackboard .CodeMirror-activeline-background {background: #3C3A3A !important;}

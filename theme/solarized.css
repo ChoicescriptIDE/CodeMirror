@@ -167,3 +167,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
 .cm-s-solarized.cm-s-light .CodeMirror-activeline-background {
   background: rgba(0, 0, 0, 0.06);
 }
+
+/* Error background */
+.cm-s-solarized .CodeMirror-error-background { background-color: rgb(250, 215, 215); }
+.cm-s-solarized span.cm-spell-error::after { border-bottom: 1px dashed red; }

@@ -38,3 +38,6 @@
 
 .cm-s-dracula .CodeMirror-activeline-background { background: rgba(255,255,255,0.1); }
 .cm-s-dracula .CodeMirror-matchingbracket { text-decoration: underline; color: white !important; }
+
+.cm-s-dracula span.cm-spell-error::after { border-bottom: 1px dashed rgb(190, 30, 30); }
+.cm-s-dracula .CodeMirror-activeline-background {background: #3C3A3A !important;}
