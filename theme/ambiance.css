@@ -2,9 +2,6 @@
 
 /* Color scheme */
 
-.cm-s-ambiance {
-  line-height: 1.3em;
-}
 .cm-s-ambiance .cm-header { color: blue; }
 .cm-s-ambiance .cm-quote { color: #24C2C7; }
 
@@ -42,7 +39,7 @@
 /* Editor styling */
 
 .cm-s-ambiance.CodeMirror {
-  line-height: 1.40em;
+  line-height: 1.3em;
   color: #E6E1DC;
   background-color: #202020;
   -webkit-box-shadow: inset 0 0 10px black;
