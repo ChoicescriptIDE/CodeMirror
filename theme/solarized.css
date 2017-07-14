@@ -8,6 +8,10 @@ Solarized color palette
 http://ethanschoonover.com/solarized/img/solarized-palette.png
 */
 
+.cm-s-solarized {
+  line-height: 1.3em;
+}
+
 .solarized.base03 { color: #002b36; }
 .solarized.base02 { color: #073642; }
 .solarized.base01 { color: #586e75; }

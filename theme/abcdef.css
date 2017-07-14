@@ -1,3 +1,7 @@
+.cm-s-abcdef {
+  line-height: 1.3em;
+}
+
 .cm-s-abcdef.CodeMirror { background: #0f0f0f; color: #defdef; }
 .cm-s-abcdef div.CodeMirror-selected { background: #515151; }
 .cm-s-abcdef .CodeMirror-line::selection, .cm-s-abcdef .CodeMirror-line > span::selection, .cm-s-abcdef .CodeMirror-line > span > span::selection { background: rgba(56, 56, 56, 0.99); }
