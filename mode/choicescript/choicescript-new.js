@@ -42,7 +42,7 @@
                 {regex: builtins, token: "builtin"},
                 {regex: csPlusCommands, token: "cs-plus"},
                 {regex: choiceOption, token: "variable"},
-                {regex: /\b([A-Za-z-]+'[A-Za-z-]+|[A-Za-z-]+'?)\b/, token: "word"},
+                {regex: /([A-Za-z\u00C0-\u00FF\u0100-\u017F]+'[A-Za-z\u00C0-\u00FF\u0100-\u017F]+|[A-Za-z\u00C0-\u00FF\u0100-\u017F]{2,}|[AaI]'?)(?=$|[\s\.,])/, token: "word"},
                 {regex: /\$!{0,2}\{[\w\{\}\+\-&\*/\s0-9#]+(\[[\w0-9\[\]]+\])*\}/, token: "variable"},
                 {regex: /[\{\}]/, token: "curly-bracket"},
                 {regex: /[\(\)]/, token: "standard-bracket"},
