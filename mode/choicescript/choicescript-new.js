@@ -121,7 +121,8 @@
                   indent: 0,
                   content: ""
                 };
-            }
+            },
+            fold: "indent"
         };
     });
 
