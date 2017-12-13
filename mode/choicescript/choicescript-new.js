@@ -36,7 +36,7 @@
 
         var TOKENS = {
             start: [
-                {regex: /\s*\*comment(?: .*)?/, token: "comment"},
+                {regex: /\s*\*comment(?:\b.*)?/, token: "comment"},
                 {regex: jumpCommands, token: "keyword"},
                 {regex: /\s+(\*hide_reuse |\*allow_reuse |\*disable_reuse ){0,1}(\*if .+ ?|\*selectable_if .+ ?){0,1}#.+/, token: "operator"},
                 {regex: builtins, token: "builtin"},
