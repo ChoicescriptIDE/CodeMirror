@@ -18,7 +18,7 @@
         					"delete", "disable_reuse", "elseif", "elsif", "else", "end_trial", "ending", "fake_choice", "finish",
         					"gosub_scene", "gosub", "goto_random_scene", "goto_scene", "gotoref", "goto", "hide_reuse", "if", "image",
         					"input_number", "input_text", "line_break", "link_button", "link", "login", "looplimit", "more_games",
-        					"page_break", "print", "purchase", "rand", "redirect_scene", "reset", "restart", "restore_game", "restore_purchases", "return",
+        					"page_break", "params", "print", "purchase", "rand", "redirect_scene", "reset", "restart", "restore_game", "restore_purchases", "return",
         					"save_game", "selectable_if",  "scene_list", "script", "setref", "set", "share_this_game", "show_password", "sound", "stat_chart",
         					"subscribe", "temp", "title"];
         var jumpCommands = ["ending", "finish", "gosub_scene", "gosub", "goto_random_scene", "goto_scene", "gotoref", "goto", "label", "redirect_scene", "return"];
