@@ -26,7 +26,7 @@
         var dedentCommands = ["finish", "goto_scene", "goto", "ending", "redirect_scene"];
         //var choiceCommands = ["hide_reuse", "allow_reuse", "selectable_if"];
         var csPlusCommands = ["console_log", "console_track", "console_track_all", "console_untrack_all", "console_untrack", "console_clear", "console_track_list", "cside_theme_set", "cside_theme_apply"];
-        var choiceOption = /\s+(?:\*(hide_reuse|allow_reuse|disable_reuse|(if|selectable_if) .+) )?#.+/;
+        var choiceOption = /^\s+(?:\*(hide_reuse|allow_reuse|disable_reuse|(if|selectable_if) .+) )?#.+/;
 
         var builtins = cmdRegExp(commonCommands);
         indentCommands = cmdRegExp(indentCommands);
